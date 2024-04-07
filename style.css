@@ -1,0 +1,89 @@
+/* Reset default browser styles */
+html, body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styles */
+body {
+    background-color: #f8f9fa; /* Light gray background */
+    color: #333; /* Dark text color */
+    line-height: 1.6;
+}
+
+/* Container for content */
+.container {
+    max-width: 800px; /* Set maximum width */
+    margin: 0 auto; /* Center container horizontally */
+    padding: 20px; /* Add padding around content */
+}
+
+/* Headings */
+h1, h2, h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Modern sans-serif font */
+    font-weight: bold; /* Bold font weight */
+    margin-bottom: 20px; /* Spacing below headings */
+}
+
+h1 {
+    font-size: 36px; /* Large heading size */
+}
+
+h2 {
+    font-size: 24px; /* Medium heading size */
+}
+
+/* Paragraphs */
+p {
+    margin-bottom: 15px; /* Spacing below paragraphs */
+}
+
+/* Lists */
+ul {
+    list-style-type: none; /* Remove default list styles */
+}
+
+li {
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+/* Links */
+a {
+    color: #007bff; /* Blue link color */
+    text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Form styles */
+label {
+    display: block; /* Display labels as block elements */
+    font-weight: bold; /* Bold label text */
+    margin-bottom: 5px; /* Spacing below labels */
+}
+
+input[type="text"],
+select {
+    width: 100%; /* Full width */
+    padding: 10px; /* Padding for input fields */
+    margin-bottom: 15px; /* Spacing between input fields */
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 5px; /* Rounded corners */
+}
+
+/* Buttons */
+button {
+    padding: 10px 20px; /* Padding for buttons */
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none; /* Remove button border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
